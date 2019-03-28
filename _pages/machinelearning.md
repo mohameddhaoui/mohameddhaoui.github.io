@@ -7,7 +7,6 @@ header :
   image : "/images/index.png"
 
 ---
-{% include base_path %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
