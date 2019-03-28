@@ -1,14 +1,12 @@
-layout:archive
-permalink:/machinelearning/
+---
+layout: archive
+permalink: /machine-learning/
 title : " Machine Learning "
 author_profile : true
 header : 
   image : "/images/index.png"
 
-
-_____
-
-
+---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
