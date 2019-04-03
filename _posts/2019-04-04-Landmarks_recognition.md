@@ -57,23 +57,23 @@ cap = cv2.VideoCapture(0)
 
 while True:
 
-# Getting our image by webcam and converting it into a gray image scale
+	# Getting our image by webcam and converting it into a gray image scale
 
-_, image = cap.read()
+	_, image = cap.read()
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+	gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# show the gray image
+	# show the gray image
 
-cv2.imshow("Output", image)
+	cv2.imshow("Output", image)
 
-#key to give up the app.
+	#key to give up the app.
 
-k = cv2.waitKey(5) & 0xFF
+	k = cv2.waitKey(5) & 0xFF
 
-if k == 27:
+	if k == 27:
 
-break
+		break
 
 cv2.destroyAllWindows()
 
