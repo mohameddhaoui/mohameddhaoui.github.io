@@ -12,5 +12,5 @@ A series of articles dedicated to Deep Learning.
 
 ## Deep Learning 
 
-[Deep Learning and LSTM ](https://mohameddhaoui.github.io/machinelearning/LSTM/) : Explore RNN’s and LSTM
-[Deep Learning and CNN ](https://mohameddhaoui.github.io/machinelearning/CNN/)  How do Convolutional Neural Networks work?
+[Deep Learning and LSTM ](https://mohameddhaoui.github.io/deeplearning/LSTM/) : Explore RNN’s and LSTM
+[Deep Learning and CNN ](https://mohameddhaoui.github.io/deeplearning/CNN/)  How do Convolutional Neural Networks work?
