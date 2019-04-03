@@ -12,4 +12,4 @@ A series of articles dedicated to machine learning.
 
 ## Machine Learning 
 
-[Deep Learning and LSTM ](https://mohameddhaoui.github.io/machinelearning/RNN/) : A first approach to machine learning. We'll go over the main motivations, the main kind of algorithms, what they can be used for...
+[Deep Learning and LSTM ](https://mohameddhaoui.github.io/machinelearning/LSTM/) : A first approach to machine learning.
