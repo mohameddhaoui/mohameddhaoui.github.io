@@ -3,7 +3,7 @@ title : "About"
 permalink: /about/
 header : 
   image:"/images/index.png"
-
+layout : single
 ---
 <div style="text-align: justify">
 I was graduated from Tunisia Polytechnic School (TPS), a center of excellence in engineering education system in Tunisia , majoring in Economic And Scientific Management . Actually , I am a data analyst at SLPV analytics . It is an expert in quantitative analysis: data processing, multivariate analysis (segmentation, clustering, drivers’ analysis,…), econometric modeling, machine learning and other methods used for the analysis of large amount of data . In relation to its core specialization, SLPV also provides the following services: dashboards set up, data visualization, expert support in quantitative analysis, training.
