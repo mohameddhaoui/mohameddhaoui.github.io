@@ -17,8 +17,9 @@ toc_sticky: true
 In this article , we are going to talk about landmarks detection in images : 
 
 Identifying faces in photos or videos is very cool, but this isn’t enough information to create powerful applications, we need more information about the person’s face, like position, whether the mouth is opened or closed, whether the eyes are opened, closed, looking up and etc. In this article I will present to you  , in a quick and objective way, the Dlib, a library capable of giving you 68 points (landkmarks) of the face.
-
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/Screenshot%20from%202019-04-04%2010-52-00.png?style=centerme">
+</p>
 ### What is Dlib?
 
 It‘s a landmark’s facial detector with pre-trained models, the dlib is used to estimate the location of 68 coordinates (x, y) that map the facial points on a person’s face like image below.
