@@ -14,3 +14,8 @@ A series of articles dedicated to Statistics
 ## Graph Analysis
 
 * [Graph Analysis](https://mohameddhaoui.github.io/statistics/graph/) : Graph Analysis with Networkx
+
+
+## Markov Models
+
+* [Markov Models ](https://mohameddhaoui.github.io/statistics/hmm/) : Introduction to Hidden Mmarkov Models
