@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /dl/
+permalink: /rl/
 author_profile: true
 header :
     image: "ml_head.png"
