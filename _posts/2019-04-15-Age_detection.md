@@ -1,3 +1,18 @@
+---
+published: true
+title: Age Prediction with keras 
+date: 2019-04-15
+layout: single
+author_profile: false
+read_time: true
+tags: [machine learning , Deep Learning , CNN] 
+categories: [deeplearning]
+excerpt: " Deep Learning , CNN "
+comments : true
+toc: true
+toc_sticky: true
+---
+
 # Age  Prediction in Keras
 Computer vision researchers of ETH Zurich University (Switzerland)  [announced](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01229.pdf)  a very successful apparent age and gender prediction models. They both shared how they designed the machine learning model and  [pre-trained weights](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  for transfer learning. Their implementation was based on Caffe framework. Even though I tried to convert Caffe model and weights to Keras / TensorFlow, I couldn’t handle this. That’s why, I intend to adopt this research from scratch in Keras.
 
