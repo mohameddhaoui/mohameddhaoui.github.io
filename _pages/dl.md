@@ -21,6 +21,13 @@ A series of articles dedicated to Deep Learning.
 * [CNN tutorial ](https://mohameddhaoui.github.io/deeplearning/CNN_tuto11/)  Convolutional Neural Networks (CNN): Step 1b- The Rectified Linear Unit (RELU)
 * [CNN tutorial ](https://mohameddhaoui.github.io/deeplearning/CNN_tuto2/)  Convolutional Neural Networks (CNN): Step 2 - The Max Pooling
 
-* [Facial Mapping](https://mohameddhaoui.github.io/deeplearning/Landmarks_recognition/)  How do Convolutional Neural Networks work?
+
+## Transfer Learning and some applications
+* [Facial Mapping](https://mohameddhaoui.github.io/deeplearning/Landmarks_recognition/)  Landmarks Detection and Facial Mapping
+
+* [Gender Detection](https://github.com/kasamoh/Image_processing_learning/tree/master/Gender_detection)  Gender Prediction
+
+* [Age Prediction](https://mohameddhaoui.github.io/deeplearning/Age_detection/)  Age Prediction with keras
+
 
 
