@@ -12,14 +12,13 @@ toc: true
 toc_sticky: true
 ---
 
-# Age  Prediction in Keras
 Computer vision researchers of ETH Zurich University (Switzerland)  [announced](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01229.pdf)  a very successful apparent age and gender prediction models. They both shared how they designed the machine learning model and  [pre-trained weights](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  for transfer learning. Their implementation was based on Caffe framework. Even though I tried to convert Caffe model and weights to Keras / TensorFlow, I couldn’t handle this. That’s why, I intend to adopt this research from scratch in Keras.
 
 ![katy-perry-ages](https://i2.wp.com/sefiks.com/wp-content/uploads/2019/02/katy-perry-ages.jpg?resize=618%2C347&ssl=1)
 
 Katy Perry Transformation
 
-### Dataset
+### 1-Dataset
 
 The original work consumed face pictures collected from IMDB (7 GB) and Wikipedia (1 GB). You can find these data sets  [here](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/). In this post, I will just consume wiki data source to develop solution fast. You should  **download faces only**  files.
 
@@ -72,7 +71,7 @@ df['age'] = df['photo_taken'] - df['date_of_birth']
  ```
 
 
-#### Data cleaning
+#### 2- Data cleaning
 
 Some pictures don’t include people in the wiki data set. For example, a vase picture exists in the data set. Moreover, some pictures might include two person. Furthermore, some are taken distant. Face score value can help us to understand the picture is clear or not. Also, age information is missing for some records. They all might confuse the model. We should ignore them. Finally, unnecessary columns should be dropped to occupy less memory.
 
@@ -152,7 +151,7 @@ features = features.reshape(features.shape[0], 224, 224, 3)
 
 The final data set consists of 22578 instances. It is splitted into 15905 train instances and 6673 test instances .
 
-#### Transfer learning
+#### 3- Transfer learning
 
 As mentioned, researcher used VGG imagenet model. Still, they tuned weights for this data set. Herein, I prefer to use **VGG-Face**  model. Because, this model is tuned for face recognition task. In this way, we might have outcomes for patterns in the human face.
 ```
@@ -221,7 +220,7 @@ base_model_output = Activation('softmax')(base_model_output)
 age_model = Model(inputs=model.input, outputs=base_model_output)
 ```
 
-#### Training
+#### 4-Training
 
 This is a multi-class classification problem. Loss function must be categorical  crossentropy. Optimization algorithm will be  Adam to converge loss faster. I create a checkpoint to monitor model over iterations and avoid overfitting. The iteration which has the minimum validation loss value will include the optimum weights. That’s why, I’ll monitor validation loss and save the best one only.
 
@@ -250,7 +249,7 @@ scores.append(score)
 It seems that validation loss reach the minimum. Increasing epochs will cause to overfitting.
 ![age-prediction-loss](https://i1.wp.com/sefiks.com/wp-content/uploads/2019/02/age-prediction-loss.png?resize=512%2C356&ssl=1)
 
-#### Model evaluation on test set
+#### 5- Model evaluation on test set
 
 We can evaluate the final model on the test set.
 ```
@@ -297,7 +296,7 @@ print("instances: ",apparent_predictions.shape[0])
 
 Our apparent age prediction model averagely predict ages ± 4.65 error. This is acceptable.
 
-#### Testing model on custom images
+#### 6- Testing model on custom images
 
 We can feel the power of the model when we feed custom images into it.
 ```
