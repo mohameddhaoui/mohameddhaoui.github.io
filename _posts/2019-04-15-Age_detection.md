@@ -1,7 +1,6 @@
 ---
 published: true
 title: Age Prediction with keras 
-date: 2019-04-15
 layout: single
 author_profile: false
 read_time: true
