@@ -19,3 +19,8 @@ A series of articles dedicated to Statistics
 ## Markov Models
 
 * [Markov Models ](https://mohameddhaoui.github.io/statistics/hmm/) : Introduction to Hidden Mmarkov Models
+
+
+## Hypothesis Testing
+
+* [Hypothesis Testing ](https://mohameddhaoui.github.io/statistics/hypothesis_testing/) : Hypothesis testing in Machine learning using Python
