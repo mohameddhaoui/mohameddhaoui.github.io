@@ -230,3 +230,152 @@ print("p = " + str(p2))
 
 
 ```
+
+
+
+
+# 4- Anova Test
+we introduced the t-test for checking whether the means of two groups differ.The t-test works when dealing with two groups, but sometimes we want to compare more than two groups at the same time. For example, if we wanted to test whether voter age differs based on some categorical variable like race, we have to compare the means of each level or group the variable. We could carry out a separate t-test for each pair of groups, but when you conduct many tests you increase the chances of false positives. The [analysis of variance](https://en.wikipedia.org/wiki/Analysis_of_variance) or ANOVA is a statistical inference test that lets you compare multiple groups at the same time.
+
+
+The one-way ANOVA tests whether the mean of some numeric variable differs across the levels of one categorical variable. It essentially answers the question: do any of the group means differ from one another? We won't get into the details of carrying out an ANOVA by hand as it involves more calculations than the t-test, but the process is similar: you go through several calculations to arrive at a test statistic and then you compare the test statistic to a critical value based on a probability distribution. In the case of the ANOVA, you use the "[f-distribution](https://en.wikipedia.org/wiki/F-distribution)".
+
+The scipy library has a function for carrying out one-way ANOVA tests called scipy.stats.f_oneway(). Let's generate some fake voter age and demographic data and use the ANOVA to compare average ages across the groups:
+
+````python 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+np.random.seed(12)
+
+races =   ["asian","black","hispanic","other","white"]
+
+# Generate random data
+voter_race = np.random.choice(a= races,
+                              p = [0.05, 0.15 ,0.25, 0.05, 0.5],
+                              size=1000)
+
+voter_age = stats.poisson.rvs(loc=18,
+                              mu=30,
+                              size=1000)
+
+# Group age data by race
+voter_frame = pd.DataFrame({"race":voter_race,"age":voter_age})
+groups = voter_frame.groupby("race").groups
+
+# Etract individual groups
+asian = voter_age[groups["asian"]]
+black = voter_age[groups["black"]]
+hispanic = voter_age[groups["hispanic"]]
+other = voter_age[groups["other"]]
+white = voter_age[groups["white"]]
+
+# Perform the ANOVA
+stats.f_oneway(asian, black, hispanic, other, white)
+````
+
+> F_onewayResult(statistic=1.7744689357289216, pvalue=0.13173183202014213)
+
+The test output yields an F-statistic of 1.774 and a p-value of 0.1317, indicating that there is no significant difference between the means of each group.
+
+
+
+# 5. Chi-Squared Test
+
+In our study of t-tests, we introduced the one-way t-test to check whether a sample mean differs from the an expected (population) mean. The chi-squared goodness-of-fit test is an analog of the one-way t-test for categorical variables: it tests whether the distribution of sample categorical data matches an expected distribution. For example, you could use a chi-squared goodness-of-fit test to check whether the race demographics of members at your church or school match that of the entire U.S. population or whether the computer browser preferences of your friends match those of Internet uses as a whole.
+
+When working with categorical data, the values themselves aren't of much use for statistical testing because categories like "male", "female," and "other" have no mathematical meaning. Tests dealing with categorical variables are based on variable counts instead of the actual value of the variables themselves.
+
+Let's generate some fake demographic data for U.S. and Minnesota and walk through the chi-square goodness of fit test to check whether they are different:
+
+````python
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
+national = pd.DataFrame(["white"]*100000 + ["hispanic"]*60000 +\
+                        ["black"]*50000 + ["asian"]*15000 + ["other"]*35000)
+           
+
+minnesota = pd.DataFrame(["white"]*600 + ["hispanic"]*300 + \
+                         ["black"]*250 +["asian"]*75 + ["other"]*150)
+
+national_table = pd.crosstab(index=national[0], columns="count")
+minnesota_table = pd.crosstab(index=minnesota[0], columns="count")
+
+print( "National")
+print(national_table)
+print(" ")
+print( "Minnesota")
+print(minnesota_table)
+````
+
+  
+Chi-squared tests are based on the so-called chi-squared statistic. You calculate the chi-squared statistic with the following formula:
+
+  
+
+sum((observed−expected) ²/ expected)
+
+In the formula, observed is the actual observed count for each category and expected is the expected count based on the distribution of the population for the corresponding category. Let's calculate the chi-squared statistic for our data to illustrate:
+
+````python 
+observed = minnesota_table
+
+national_ratios = national_table/len(national)  # Get population ratios
+
+expected = national_ratios * len(minnesota)   # Get expected counts
+
+chi_squared_stat = (((observed-expected)**2)/expected).sum()
+
+print(chi_squared_stat)
+````
+
+> col_0
+count    18.194805
+dtype: float64
+
+*Note: The chi-squared test assumes none of the expected counts are less than 5.
+
+Similar to the t-test where we compared the t-test statistic to a critical value based on the t-distribution to determine whether the result is significant, in the chi-square test we compare the chi-square test statistic to a critical value based on the [chi-square distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution). The scipy library shorthand for the chi-square distribution is chi2. Let's use this knowledge to find the critical value for 95% confidence level and check the p-value of our result:
+
+````python
+crit = stats.chi2.ppf(q = 0.95, # Find the critical value for 95% confidence*
+                      df = 4)   # Df = number of variable categories - 1
+
+print("Critical value")
+print(crit)
+
+p_value = 1 - stats.chi2.cdf(x=chi_squared_stat,  # Find the p-value
+                             df=4)
+print("P value")
+print(p_value)
+````
+
+>   Critical value 9.48772903678
+>    P value [ 0.00113047]
+
+*Note: we are only interested in the right tail of the chi-square distribution. Read more on this here.
+
+Since our chi-squared statistic exceeds the critical value, we'd reject the null hypothesis that the two distributions are the same.
+
+# 6- Chow test
+
+A Chow test is designed to determine whether a structural break in a time series exists. That is to say, a sharp change in trend in a time series that merits further study. For instance, a structural break in one series can give useful clues as to whether such a change is being propagated across other variables – assuming that there is a significant correlation between them under normal circumstances.
+![](http://www.michaeljgrogan.com/wp-content/uploads/2017/04/chow-test.png)
+The Chow test is conducted by running three separate regressions: 1) a pooled regression with data before and after the structural break, 2) a regression with data before the structural break, and 3) a regression with data after the structural break. The residual sum of squares for each regression is used to calculate the Chow statistic using the following formula:
+
+> CHOW = (RSSP - (RSSA+RSSB))/k) / (RSSA+RSSB)/(NA+NB-2k)
+where RSS = Residual Sum of Squares
+k = number of regressors (including intercept)
+N = degrees of freedom
+
+Note that this test can be set up automatically in R using the “strucchange” package. However, I always prefer to calculate the test statistic manually where possible, as it facilitates understanding of why we are applying the test, along with understanding the specific break that we are analysing in the time series.
+
+The null and alternative hypothesis is as follows:
+
+- Null Hypothesis: No structural break in time series
+
+- Alternative Hypothesis: Structural break in time series
+
+At the outset, let me say that the Chow Test is more of an academic model in nature, and is not as commonly used as other time series methods. Firstly, most time series (especially ones with an economic or financial trend involved) will show many structural breaks. The Chow Test is mainly useful when it comes to analysing structural breaks across time series that are normally stationary, but a significant shift causes a break in the series.
