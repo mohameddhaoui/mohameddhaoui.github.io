@@ -11,13 +11,16 @@ toc_sticky: true
 A series of articles dedicated to data engineering
 
 
-## Vue.js
-* [Graph Analysis](https://mohameddhaoui.github.io/statistics/graph/) : Introduction to Vue.js
+## Web Application
+* [Flask](https://mohameddhaoui.github.io/statistics/graph/) : Creating Web application with Flask
+* [VueJS](https://mohameddhaoui.github.io/statistics/graph/) : Introduction to Vue.js
 
 
 ## Data Visualization
 
 * [Altair ](https://mohameddhaoui.github.io/dataengineering/altair/) : Exploratory Data Visualisation with Altair 
-* [VueJS](https://mohameddhaoui.github.io/statistics/graph/) : Introduction to Vue.js
 * [Tableau](https://mohameddhaoui.github.io/statistics/graph/) : Simple Dashboard with Tableau 
 
+## Google Cloud Platform
+
+* [GCP ](https://mohameddhaoui.github.io/dataengineering/altair/) : GCP components 
