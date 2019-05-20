@@ -20,7 +20,7 @@
 }
 
 .page {
-  @include breakpoint($large) {
+
     width: calc(100% - #{$right-sidebar-width-narrow});
   }
 
