@@ -3,12 +3,17 @@ layout: single
 permalink: /st/
 author_profile: true
 header :
-    image: "ml_head.png"
+    image: "stat.jpg"
 toc: true
 toc_sticky: true
 ---
 
 A series of articles dedicated to Statistics
+
+## Bayesian Analysis
+
+* [Bayesian Regression](https://mohameddhaoui.github.io/statistics/bayesianregression/) :  Bayesian Linear Regression
+
 
 
 ## Graph Analysis
