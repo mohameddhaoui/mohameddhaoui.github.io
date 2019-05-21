@@ -2,6 +2,10 @@
 layout: single
 permalink: /st/
 author_profile: true
+excerpt: " Statistics"
+comments : true
+toc: true
+toc_sticky: true
 header: 
  overlay_image: "/images/stat.jpg"
 
