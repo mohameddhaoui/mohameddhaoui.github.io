@@ -2,8 +2,8 @@
 layout: single
 permalink: /st/
 author_profile: true
-header :
-    image: "stat.jpg"
+header: 
+ overlay_image: "/images/stat.jpg"
 toc: true
 toc_sticky: true
 ---
