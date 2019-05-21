@@ -4,8 +4,7 @@ permalink: /st/
 author_profile: true
 header: 
  overlay_image: "/images/stat.jpg"
-toc: true
-toc_sticky: true
+
 ---
 
 A series of articles dedicated to Statistics
