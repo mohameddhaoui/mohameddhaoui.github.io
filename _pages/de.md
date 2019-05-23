@@ -22,8 +22,8 @@ A series of articles dedicated to data engineering
 * [Tableau](https://mohameddhaoui.github.io/statistics/graph/) : Simple Dashboard with Tableau 
 
 ## Google Cloud Platform
-* [Dialogflow ](https://mohameddhaoui.github.io/dataengineering/chatbot2/) : Building Chatbot with Dialogflow - Part2 
+* [Dialogflow - Part 2](https://mohameddhaoui.github.io/dataengineering/chatbot2/) : Building Chatbot with Dialogflow - Part2 
 
-* [Dialogflow ](https://mohameddhaoui.github.io/dataengineering/chatbot/) : Building Chatbot with Dialogflow and Goole Cloud Platform - Part1 
+* [Dialogflow - Part 1](https://mohameddhaoui.github.io/dataengineering/chatbot/) : Building Chatbot with Dialogflow and Goole Cloud Platform - Part1 
 
 * [GCP ](https://mohameddhaoui.github.io/dataengineering/altair/) : GCP components 
