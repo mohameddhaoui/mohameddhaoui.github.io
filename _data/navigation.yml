@@ -10,3 +10,5 @@ main:
     url: /rl/
   - title: "Data Engineering"
     url: /de/
+  - title: "Projects"
+    url: /pr/
