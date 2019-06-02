@@ -19,6 +19,7 @@ Data science and Business Analysis have always been passions of mine. I have alw
 I strive for continuous progress in everything I do, and so am keen to work in an environment which encourages me to succeed and grow professionally where I can utilize my skills and knowledge appropriately.
 
 
+</div>
 
 <br/>
 <br/>
