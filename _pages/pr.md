@@ -170,20 +170,22 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 <br/>
 <br/>
 
-### Cyber Security (Splunk)
 
-I used Splunk in a Cyber Security Project. The aim of the project was to identify the source of a data leakage within the company. We went through the logs, identified suspect IP addresses, found the source of the attack (a corrupted PDF), estimated the volume of data stolen, and proposed immediate actions. We detailed the Diamond Model, the Cyber Kill Chain, and developped general perspectives for the Cyber Threat Intelligence of the company.
-
-<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/INF726_Cybersecu_TP_Splunk_Dhaoui_Reynal_Soufflet.pdf" type="application/pdf" width="600px" height="500px" />
+### Econometrics : Time series Analysis and hypothesis testing 
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+- Hypothesis testing 
+<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/20190416_SES722_Projet_MDhaoui_MRoussel_Partie1.pdf" type="application/pdf" width="600px" height="500px" />
+
+- Time series Analysis
+
+<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/20190416_SES722_Projet_MDhaoui_MRoussel_Partie2.pdf" type="application/pdf" width="600px" height="500px" />
+
+
 
 ### Scala mini-projects : 
+
+![](https://vishnuviswanath.com/img/spark_blog.jpg)
 
 - Financing rate prediction of Kickstarter.com projects : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/KItStarterProject
 - Implementation a distributed k-means algorithm which clusters posts on the popular question-answer platform StackOverflow according to their score : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/StackOverflowProject
@@ -219,7 +221,16 @@ Below some image processing and learning projects :
 <br/>
 
 
-## Hackathons
+
+
+### Hackathons
+
+
+
+![](https://cdn-images-1.medium.com/max/1600/1*supQ92uykNElEfyYf7UgHw.png)
+
+- Carrefour - Google Challenge : Development of Intelligent voicebot to enhance customer experience using Google Cloud Platform environment : https://machinelearningforbigdata.telecom-paristech.fr/fr/article/groupe-etudiants-ms-big-data-remporte-ai-retail-challenge
+
 
 - [Predicting the Song of the year ](https://github.com/kasamoh/Hackathon/blob/master/Hackaton_report.ipynb)
 
@@ -227,5 +238,19 @@ Below some image processing and learning projects :
 
 - [Second Challenge Image-Classification using Resnet  ](https://github.com/kasamoh/Image_processing_learning/)
 
-- Carrefour - Google Challenge : Development of Intelligent voicebot to enhance customer experience using Google Cloud Platform environment
 
+
+
+
+### Cyber Security (Splunk)
+
+I used Splunk in a Cyber Security Project. The aim of the project was to identify the source of a data leakage within the company. We went through the logs, identified suspect IP addresses, found the source of the attack (a corrupted PDF), estimated the volume of data stolen, and proposed immediate actions. We detailed the Diamond Model, the Cyber Kill Chain, and developped general perspectives for the Cyber Threat Intelligence of the company.
+
+<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/INF726_Cybersecu_TP_Splunk_Dhaoui_Reynal_Soufflet.pdf" type="application/pdf" width="600px" height="500px" />
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
