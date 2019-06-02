@@ -35,12 +35,14 @@ I strive for continuous progress in everything I do, and so am keen to work in a
 <br/>
 <br/>
 
+
 ## Data Science Skills
 - Statistics :  Regression analysis, Bayesian analysis ,HMM  Boostrap , Hypothesis Testing , Time series Analysis
 - ML  : Xgboost, Conditional Random Forest , Bagging , SVM, NMF , Factorization machine , Spark Mllib/ML
 - Deep Learning : ANN , LSTM / GRU , CNN , Transfer Learning ,  Auto-encoders 
 - Reinforcement Learning : Contextual Bandits, Q-learning, Thompson Sampling ,LinUCB ,  OpenAI Gym 
 - Notebooks : Jupyter , Spark-Notebook, Zeppelin
+
 
 <br/>
 <br/>
@@ -54,5 +56,9 @@ I strive for continuous progress in everything I do, and so am keen to work in a
 - Hadoop Fundamentals
 - NoSQL DataBase
 - Google Cloud Platform Essentials
+
+<br/>
+<br/>
+
 
 ## [ Recent Projects](https://mohameddhaoui.github.io/projects/)
