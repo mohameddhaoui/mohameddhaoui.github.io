@@ -27,9 +27,10 @@ Keywords: AWS EC2, ZooKeeper, S3, Zepplin, scala, mongoDB, Cassandra, Flask, Pyt
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tree/master/Projet_gdelt](https://github.com/kasamoh/NoSQL/tree/master/Projet_gdelt)</span>
 
 
-\
-\
-\
+<br/>
+<br/>
+<br/>
+
 
 ### Flask : an app for movies website 
 A design of a Flask app for movies website with python and MongoDB
