@@ -75,6 +75,7 @@ A design of a Flask app for movies website with python and MongoDB
 ![image](https://raw.githubusercontent.com/kasamoh/NoSQL/master/mflix.png)
 
 keywords :  Flask ,Python, MongoDB , HTML , CSS , Boostrap 
+
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix](https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix)</span>
 
 <br/>
@@ -96,12 +97,14 @@ First design :
 
 ![](https://raw.githubusercontent.com/kasamoh/Data-analysis/master/Data%20Visualization/D3js/France/images/d3js_res.png)
 
+<br/>
 
 
 Second design : 
 ![](https://raw.githubusercontent.com/kasamoh/Data-analysis/master/Data%20Visualization/D3js/France/images/Capture.JPG)
 
 keywords :  Flask ,Python, D3js , javascript , HTML , CSS , Boostrap 
+
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-analysis/tree/master/Data%20Visualization/D3js](https://github.com/kasamoh/Data-analysis/tree/master/Data%20Visualization/D3js)</span>
 
 <br/>
@@ -123,6 +126,7 @@ In order to verify this assertion, I developped a small WebApp with 2 simple opt
 
 ![](https://raw.githubusercontent.com/kasamoh/WebApp/master/WikiAPP/static/wikipedia.JPG)
 
+
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/WebApp/tree/master/WikiAPP](https://github.com/kasamoh/WebApp/tree/master/WikiAPP)</span>
 
 
@@ -140,7 +144,8 @@ Many ads are actually sold on a "pay-per-click" (PPC) basis, meaning the company
 
 In order for you to maximize expected value, you therefore need to accurately predict the likelihood that a given ad will be clicked, also known as "click-through rate" (CTR).
 
-![]() https://storage.googleapis.com/kaggle-competitions/kaggle/4002/media/banner_ctr.jpg
+![](https://storage.googleapis.com/kaggle-competitions/kaggle/4002/media/banner_ctr.jpg)
+
 
 See GitHub page: <span style="color:blue">[https://github.com/kasamoh/Big-Data-mining/tree/master/AVAZU_CTR_Analysis](https://github.com/kasamoh/Big-Data-mining/tree/master/AVAZU_CTR_Analysis)</span>
 
@@ -177,6 +182,7 @@ I used Splunk in a Cyber Security Project. The aim of the project was to identif
 <br/>
 <br/>
 <br/>
+
 ### Scala mini-projects : 
 
 - Financing rate prediction of Kickstarter.com projects : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/KItStarterProject
@@ -188,26 +194,38 @@ I used Splunk in a Cyber Security Project. The aim of the project was to identif
 <br/>
 <br/>
 <br/>
+
+
 ### Deep Learning : Image Processing and learning  
 
-Below some image 
-- Realtime Landmarks recognition using Transfer Learning and open CV 
-![](https://github.com/kasamoh/Image_processing_learning/Landmarks_Detection/Screenshot%20from%202019-04-04%2010-52-00.png)
+Below some image processing and learning projects : 
+<br/>
 
-- Gender detection  using deep learning with keras and cvlib
-![](https://github.com/kasamoh/Image_processing_learning/Gender_detection/woman_men.png)
 
-- Age Prediction in Keras 
+- Realtime Landmarks recognition using Transfer Learning and open CV  : https://github.com/kasamoh/Image_processing_learning/tree/master/Landmarks_Detection
+
+![](https://raw.githubusercontent.com/kasamoh/Image_processing_learning/master/Landmarks_Detection/Screenshot%20from%202019-04-04%2010-52-00.png)
+
+- Gender detection  using deep learning with keras and cvlib  : https://github.com/kasamoh/Image_processing_learning/tree/master/Gender_detection
+![](https://raw.githubusercontent.com/kasamoh/Image_processing_learning/master/Gender_detection/woman_men.png)
+
+- Age Prediction in Keras  : 
+![age-prediction-for-godfather](https://i0.wp.com/sefiks.com/wp-content/uploads/2019/02/age-prediction-for-godfather.png?resize=603%2C339&ssl=1)
 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
+
 ## Hackathons
 
-[Predicting the Song of the year ](https://github.com/kasamoh/Hackathon/blob/master/Hackaton_report.ipynb)
+- [Predicting the Song of the year ](https://github.com/kasamoh/Hackathon/blob/master/Hackaton_report.ipynb)
 
-[Predicting the Song of the year (2/3)](https://maelfabien.github.io/Hack-2/)
+- [First Challenge Image-Classification  ](https://github.com/kasamoh/Image_processing_learning/blob/master/challenge_images/Challenge_ML_MOHAMED_DHAOUI.ipynb)
 
-[Predicting the Song of the year (3/3)](https://maelfabien.github.io/Hack-3/)
+- [Second Challenge Image-Classification using Resnet  ](https://github.com/kasamoh/Image_processing_learning/)
+
+- Carrefour - Google Challenge : Development of Intelligent voicebot to enhance customer experience using Google Cloud Platform environment
+
