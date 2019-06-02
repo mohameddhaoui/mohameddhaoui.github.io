@@ -181,15 +181,19 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 
 <embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/20190416_SES722_Projet_MDhaoui_MRoussel_Partie2.pdf" type="application/pdf" width="600px" height="500px" />
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Scala mini-projects : 
 
 ![](https://vishnuviswanath.com/img/spark_blog.jpg)
 
-- Financing rate prediction of Kickstarter.com projects : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/KItStarterProject
-- Implementation a distributed k-means algorithm which clusters posts on the popular question-answer platform StackOverflow according to their score : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/StackOverflowProject
-- Using full-text data from Wikipedia to produce a rudimentary metric of how popular a programming language is : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/Wikipediaproject
+- [Financing rate prediction of Kickstarter.com projects](https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/KItStarterProject)
+- [Implementation a distributed k-means algorithm which clusters posts on the popular question-answer platform StackOverflow according to their score](https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/StackOverflowProject)
+- [Using full-text data from Wikipedia to produce a rudimentary metric of how popular a programming language is](https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/Wikipediaproject)
 
 <br/>
 <br/>
@@ -240,7 +244,11 @@ Below some image processing and learning projects :
 - [Second Challenge Image-Classification using Resnet  ](https://github.com/kasamoh/Image_processing_learning/)
 
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 ### Cyber Security (Splunk)
