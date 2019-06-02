@@ -9,7 +9,7 @@ header :
 ---
 
 
-### Big Data : Design and implementation of high-performance resilient storage system on AWS to analyse GDELT Database
+## Big Data : Design and implementation of high-performance resilient storage system on AWS to analyse GDELT Database
 
 The GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes ...in the entire world. With new files uploaded every 15 minutes, GDELT data bases contain more than 500 Gb of zipped data for the single year 2018.
 
@@ -33,10 +33,10 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tre
 
 
 
-### Reinforcement Learning : Deep Reinforcement learning for recommender system
+## Reinforcement Learning : Deep Reinforcement learning for recommender system
 
 Build A recommender system for Vente-privee.com using Reinforcement Learning and Bayesian Networks . 
-Keys : Contextual bandits , Gym , Neural Networks , Bayesian Analysis , Python , Docker , Tensorflow
+Keywords : Contextual bandits , Gym , Neural Networks , Bayesian Analysis , Python , Docker , Tensorflow
 
 
 ![image](https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/vepee.JPG)
@@ -52,11 +52,11 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/vente-pri
 
 
 
-### Metric Learning and XGBOOST : Estimating a position from a received signal strength for IoT sensors
+## Metric Learning and XGBOOST : Estimating a position from a received signal strength for IoT sensors
 
 Smart devices such as IoT sensors use low energy consuming networks such as the ones provided by Sigfox or Lora. But without using GPS networks, it becomes harder to estimate the position of the sensor. The aim of this study is to provide a geolocation estimation using Received Signal Strength Indicator in the context of IoT. The aim is to allow a geolocation of lowconsumption connected devices using the Sigfox network. State of the art modelsare able to be precise to the nearest kilometer in urban areas, and around tenkilometers in less populated areas. 
 
-Keys : Metric Learning , KNN , Xgboost , IoT , Python
+Keywords : Metric Learning , KNN , Xgboost , IoT , Python
 
 ![image](https://www.simultrans.com/hs-fs/hubfs/Challenges%20of%20Localizing%20IoT%20content.png?width=560&height=315&name=Challenges%20of%20Localizing%20IoT%20content.png)
 
@@ -68,7 +68,7 @@ See GitHub page: <span style="color:blue">[https://github.com/kasamoh/IoT](https
 <br/>
 <br/>
 
-### Flask : an app for movies website 
+## Flask : an app for movies website 
 A design of a Flask app for movies website with python and MongoDB
 
 
@@ -84,7 +84,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tre
 <br/>
 <br/>
 
-### Visualization : Interactive Map of France using D3js
+## Visualization : Interactive Map of France using D3js
 
 In this project, I created an interactive map with a few main features :
 
@@ -138,7 +138,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/WebApp/tr
 <br/>
 <br/>
 
-### Classification  :Click Through Rate Prediction using AVAZU dataset
+## Classification  :Click Through Rate Prediction using AVAZU dataset
 
 Many ads are actually sold on a "pay-per-click" (PPC) basis, meaning the company only pays for ad clicks, not ad views. Thus your optimal approach (as a search engine) is actually to choose an ad based on "expected value", meaning the price of a click times the likelihood that the ad will be clicked. In other words, a $1.00 ad with a 5% probability of being clicked has an expected value of $0.05, whereas a $2.00 ad with a 1% probability of being clicked has an expected value of only $0.02. In this case, you would choose to display the first ad.
 
@@ -157,7 +157,7 @@ See GitHub page: <span style="color:blue">[https://github.com/kasamoh/Big-Data-m
 <br/>
 
 
-### Classification : Predicting the predominant kind of tree (Kaggle)
+## Classification : Predicting the predominant kind of tree (Kaggle)
 
 In this challenge , I am trying to predict the forest cover type (the predominant kind of tree cover) from strictly cartographic variables (as opposed to remotely sensed data) . 
 
@@ -171,7 +171,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 <br/>
 
 
-### Econometrics : Time series Analysis and hypothesis testing 
+## Econometrics : Time series Analysis and hypothesis testing 
 
 
 - Hypothesis testing 
@@ -187,7 +187,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 <br/>
 <br/>
 
-### Scala mini-projects : 
+## Scala mini-projects : 
 
 ![](https://vishnuviswanath.com/img/spark_blog.jpg)
 
@@ -202,7 +202,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 <br/>
 
 
-### Deep Learning : Image Processing and learning  
+## Deep Learning : Image Processing and learning  
 
 Below some image processing and learning projects : 
 <br/>
@@ -228,7 +228,7 @@ Below some image processing and learning projects :
 
 
 
-### Hackathons
+## Hackathons
 
 
 
@@ -251,7 +251,7 @@ Below some image processing and learning projects :
 <br/>
 
 
-### Cyber Security (Splunk)
+## Cyber Security (Splunk)
 
 I used Splunk in a Cyber Security Project. The aim of the project was to identify the source of a data leakage within the company. We went through the logs, identified suspect IP addresses, found the source of the attack (a corrupted PDF), estimated the volume of data stolen, and proposed immediate actions. We detailed the Diamond Model, the Cyber Kill Chain, and developped general perspectives for the Cyber Threat Intelligence of the company.
 
