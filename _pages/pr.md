@@ -9,8 +9,6 @@ header :
 ---
 
 
-## GitHub Projects
-
 ### Big Data : Design and implementation of high-performance resilient storage system on AWS to analyse GDELT Database
 
 The GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes ...in the entire world. With new files uploaded every 15 minutes, GDELT data bases contain more than 500 Gb of zipped data for the single year 2018.
@@ -34,11 +32,47 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tre
 <br/>
 
 
+
+### Reinforcement Learning : Deep Reinforcement learning for recommender system
+
+Build A recommender system for Vente-privee.com using Reinforcement Learning and Bayesian Networks . 
+Keys : Contextual bandits , Gym , Neural Networks , Bayesian Analysis , Python , Docker , Tensorflow
+
+
+![image](https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/vepee.JPG)
+
+
+See GitHub page : <span style="color:blue">[https://github.com/kasamoh/vente-privee_telecom_reco_gym](https://github.com/kasamoh/vente-privee_telecom_reco_gym)</span>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+### Metric Learning and XGBOOST : Estimating a position from a received signal strength for IoT sensors
+
+Smart devices such as IoT sensors use low energy consuming networks such as the ones provided by Sigfox or Lora. But without using GPS networks, it becomes harder to estimate the position of the sensor. The aim of this study is to provide a geolocation estimation using Received Signal Strength Indicator in the context of IoT. The aim is to allow a geolocation of lowconsumption connected devices using the Sigfox network. State of the art modelsare able to be precise to the nearest kilometer in urban areas, and around tenkilometers in less populated areas. 
+
+Keys : Metric Learning , KNN , Xgboost , IoT , Python
+
+![image](https://www.simultrans.com/hs-fs/hubfs/Challenges%20of%20Localizing%20IoT%20content.png?width=560&height=315&name=Challenges%20of%20Localizing%20IoT%20content.png)
+
+See GitHub page: <span style="color:blue">[https://github.com/kasamoh/IoT](https://github.com/kasamoh/IoT)</span>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### Flask : an app for movies website 
 A design of a Flask app for movies website with python and MongoDB
 
 
-![image](https://github.com/kasamoh/NoSQL/blob/master/mflix.png)
+![image](https://raw.githubusercontent.com/kasamoh/NoSQL/master/mflix.png)
 
 keywords :  Flask ,Python, MongoDB , HTML , CSS , Boostrap 
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix](https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix)</span>
@@ -92,38 +126,6 @@ In order to verify this assertion, I developped a small WebApp with 2 simple opt
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/WebApp/tree/master/WikiAPP](https://github.com/kasamoh/WebApp/tree/master/WikiAPP)</span>
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Reinforcement Learning : Deep Reinforcement learning for recommender system
-
-Build A recommender system for Vente-privee.com using Reinforcement Learning and Bayesian Networks . 
-Keys : Contextual bandits , Gym , Neural Networks , Bayesian Analysis , Python , Docker , Tensorflow
-
-
-![image](https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/vepee.JPG)
-See GitHub page : <span style="color:blue">[https://github.com/kasamoh/vente-privee_telecom_reco_gym](https://github.com/kasamoh/vente-privee_telecom_reco_gym)</span>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
-### Metric Learning and XGBOOST : Estimating a position from a received signal strength for IoT sensors
-
-Smart devices such as IoT sensors use low energy consuming networks such as the ones provided by Sigfox or Lora. But without using GPS networks, it becomes harder to estimate the position of the sensor. The aim of this study is to provide a geolocation estimation using Received Signal Strength Indicator in the context of IoT. The aim is to allow a geolocation of lowconsumption connected devices using the Sigfox network. State of the art modelsare able to be precise to the nearest kilometer in urban areas, and around tenkilometers in less populated areas. 
-
-Keys : Metric Learning , KNN , Xgboost , IoT , Python
-
-![image](https://www.simultrans.com/hs-fs/hubfs/Challenges%20of%20Localizing%20IoT%20content.png?width=560&height=315&name=Challenges%20of%20Localizing%20IoT%20content.png)
-
-See GitHub page: <span style="color:blue">[https://github.com/kasamoh/IoT](https://github.com/kasamoh/IoT)</span>
 
 
 <br/>
@@ -167,7 +169,7 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 
 I used Splunk in a Cyber Security Project. The aim of the project was to identify the source of a data leakage within the company. We went through the logs, identified suspect IP addresses, found the source of the attack (a corrupted PDF), estimated the volume of data stolen, and proposed immediate actions. We detailed the Diamond Model, the Cyber Kill Chain, and developped general perspectives for the Cyber Threat Intelligence of the company.
 
-<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/blob/master/assets/images/INF726_Cybersecu_TP_Splunk_Dhaoui_Reynal_Soufflet.pdf" type="application/pdf" width="600px" height="500px" />
+<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/INF726_Cybersecu_TP_Splunk_Dhaoui_Reynal_Soufflet.pdf" type="application/pdf" width="600px" height="500px" />
 
 
 <br/>
