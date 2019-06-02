@@ -17,3 +17,42 @@ In Sept 2018 , I decided to enroll in a Big Data Advanced Post-Graduate Master a
 Data science and Business Analysis have always been passions of mine. I have always loved the challenge of finding the right kind of data, analyzing it and coming up with answers to big problems, and then presenting those insights out in ways that people understand .
 
 I strive for continuous progress in everything I do, and so am keen to work in an environment which encourages me to succeed and grow professionally where I can utilize my skills and knowledge appropriately.
+
+
+
+<br/>
+<br/>
+
+
+## Technical Skills
+- Programming / Scripting : Python , Scala , SAS, R , VBA
+- Big Data Ecosystem : Hadoop , Spark , Hive , Zookeeper ,Flink , AWS , Google Cloud Platform , Cloudera
+- Web Frameworks :Flask , Django , React , RShiny
+- Databases : MySQL , MongoDB ,Cassandra,Neo4j
+- IDE / Version control : IntelliJ Idea , Eclipse , VS , Pycharm , Databricks , Google-Colab , Git, GitHub, Bitbucket 
+- Visualization : QlickView , Tableau , D3js , Dash , Altair
+
+<br/>
+<br/>
+
+## Data Science Skills
+- Statistics :  Regression analysis, Bayesian analysis ,HMM  Boostrap , Hypothesis Testing , Time series Analysis
+- ML  : Xgboost, Conditional Random Forest , Bagging , SVM, NMF , Factorization machine , Spark Mllib/ML
+- Deep Learning : ANN , LSTM / GRU , CNN , Transfer Learning ,  Auto-encoders 
+- Reinforcement Learning : Contextual Bandits, Q-learning, Thompson Sampling ,LinUCB ,  OpenAI Gym 
+- Notebooks : Jupyter , Spark-Notebook, Zeppelin
+
+<br/>
+<br/>
+
+## Certificates
+- Deep Learning Specialization in Coursera
+- IBM professional Data Scientist
+- Big Data analytics with Spark and Scala
+- MongoDB
+- Web Analytics 
+- Hadoop Fundamentals
+- NoSQL DataBase
+- Google Cloud Platform Essentials
+
+## [ Recent Projects](https://mohameddhaoui.github.io/projects/)
