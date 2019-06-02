@@ -30,6 +30,8 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tre
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 
 ### Flask : an app for movies website 
@@ -41,9 +43,11 @@ A design of a Flask app for movies website with python and MongoDB
 keywords :  Flask ,Python, MongoDB , HTML , CSS , Boostrap 
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix](https://github.com/kasamoh/NoSQL/tree/master/MongoDB/mflix)</span>
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Visualization : Interactive Map of France using D3js
 
@@ -66,9 +70,11 @@ Second design :
 keywords :  Flask ,Python, D3js , javascript , HTML , CSS , Boostrap 
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-analysis/tree/master/Data%20Visualization/D3js](https://github.com/kasamoh/Data-analysis/tree/master/Data%20Visualization/D3js)</span>
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Web : Wikipedia Web App
 
@@ -86,9 +92,11 @@ In order to verify this assertion, I developped a small WebApp with 2 simple opt
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/WebApp/tree/master/WikiAPP](https://github.com/kasamoh/WebApp/tree/master/WikiAPP)</span>
 
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Reinforcement Learning : Deep Reinforcement learning for recommender system
 
@@ -99,9 +107,11 @@ Keys : Contextual bandits , Gym , Neural Networks , Bayesian Analysis , Python ,
 ![image](https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/vepee.JPG)
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/vente-privee_telecom_reco_gym](https://github.com/kasamoh/vente-privee_telecom_reco_gym)</span>
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
@@ -116,10 +126,11 @@ Keys : Metric Learning , KNN , Xgboost , IoT , Python
 See GitHub page: <span style="color:blue">[https://github.com/kasamoh/IoT](https://github.com/kasamoh/IoT)</span>
 
 
-
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Classification  :Click Through Rate Prediction using AVAZU dataset
 
@@ -132,9 +143,11 @@ In order for you to maximize expected value, you therefore need to accurately pr
 See GitHub page: <span style="color:blue">[https://github.com/kasamoh/Big-Data-mining/tree/master/AVAZU_CTR_Analysis](https://github.com/kasamoh/Big-Data-mining/tree/master/AVAZU_CTR_Analysis)</span>
 
 
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 ### Classification : Predicting the predominant kind of tree (Kaggle)
@@ -144,8 +157,11 @@ In this challenge , I am trying to predict the forest cover type (the predominan
 See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-analysis/tree/master/Kaggle](https://github.com/kasamoh/Data-analysis/tree/master/Kaggle)</span>
 
 
-<br></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Cyber Security (Splunk)
 
@@ -154,16 +170,22 @@ I used Splunk in a Cyber Security Project. The aim of the project was to identif
 <embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/blob/master/assets/images/INF726_Cybersecu_TP_Splunk_Dhaoui_Reynal_Soufflet.pdf" type="application/pdf" width="600px" height="500px" />
 
 
-<br
-></br>
-<br></br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ### Scala mini-projects : 
 
 - Financing rate prediction of Kickstarter.com projects : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/KItStarterProject
 - Implementation a distributed k-means algorithm which clusters posts on the popular question-answer platform StackOverflow according to their score : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/StackOverflowProject
 - Using full-text data from Wikipedia to produce a rudimentary metric of how popular a programming language is : https://github.com/kasamoh/Big-Data-mining/tree/master/Scala/Wikipediaproject
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ### Deep Learning : Image Processing and learning  
 
 Below some image 
@@ -175,7 +197,11 @@ Below some image
 
 - Age Prediction in Keras 
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## Hackathons
 
 [Predicting the Song of the year ](https://github.com/kasamoh/Hackathon/blob/master/Hackaton_report.ipynb)
