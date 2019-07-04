@@ -115,6 +115,64 @@ See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Data-anal
 <br/>
 <br/>
 
+
+
+
+
+## Visualization : Interactive Dashboard for energy analysis in France using  React and D3js
+
+Energy has become a main concern for a lot of people today. Enedis, through its website, has
+open a huge quantity of data to public. But due to the large amount of data available, this data can
+become very fast unfriendly and it can become very frustrated to navigate through it
+the data are directly available from Enedis dedicated website. Every user can
+find them here: https://data.enedis.fr/page/accueil/. There is a total of 60 different dataset spitted
+into 6 categories:
+- Energy: giving insights on the production and consumption of energy in France, with
+different time splits and geography splits
+- Environment: giving the electrical loading station for cars
+- Exploitation: giving information about lines installed and blackouts
+- Infrastructures: giving the architectures of low voltages and high voltages lines
+- Electricity market: the datasets about Joule losses and market adaptation
+
+These 60 datasets gather together millions of lines of data. One of the first tasks was to
+explore these data and decide which ones we will use for the project. We knew that there were a lot
+of data available, but we underestimated at first the time it would take to explore all these datasets
+and chose only data we wanted to dig more.
+As our target was to target most people, we went simply on the data related to Energy. The
+main questions we wanted to answer were as following:
+- From where is coming the Energy we are using in France?
+- How it is produced? 
+- What are the areas that produce more than what they consume?
+- Who are the good examples to follow? Who are not?
+- How all of this is evolving in time?
+But even after limiting the field of possibility, we had to choose also the scale we wanted to
+present the data as a lot of format was available. What temporality? What geographical mesh?
+Again, it is simplicity that drived our choices and we went to the largest scales:
+- Year for the temporality
+- Region for the geographical mapping.
+
+
+![](https://raw.githubusercontent.com/mohameddhaoui/mohameddhaoui.github.io/master/images/viz_project.png)
+
+In this visualization project , I used python and many web technologies in order to implement the
+suggested design : I used python to clean and transform the data , Reactjs to handle and facilitate
+the interactivity and especially to implement reusable components that can be put together to form
+more complex components, and finally D3js to create the different graphs.
+
+keywords :  React, D3js , javascript , HTML , CSS , Boostrap ,Python
+
+See GitHub page : <span style="color:blue">[https://github.com/kasamoh/Infoviz_telecom)</span>
+
+Below a detailed report about the project :
+<embed src="https://github.com/mohameddhaoui/mohameddhaoui.github.io/raw/master/assets/images/VisualizationReport.pdf" type="application/pdf" width="600px" height="500px" />
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
 ## Web : Wikipedia Web App
 
 
