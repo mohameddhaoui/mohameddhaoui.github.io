@@ -29,3 +29,9 @@ A series of articles dedicated to data engineering
 * [Dialogflow - Part 1](https://mohameddhaoui.github.io/dataengineering/chatbot/) : Building Chatbot with Dialogflow and Goole Cloud Platform - Part1 
 
 * [GCP ](https://mohameddhaoui.github.io/dataengineering/altair/) : GCP components 
+
+
+## Data platforms
+
+* [Dataiku](https://mohameddhaoui.github.io/dataengineering/dataiku/) : Hands on data preprocessing and machine learning with Dataiku
+
