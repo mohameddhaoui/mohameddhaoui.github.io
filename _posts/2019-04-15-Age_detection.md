@@ -12,6 +12,18 @@ toc: true
 toc_sticky: true
 ---
 
+
+------------------------
+
+This article is just a **copy paste** from the following blog article and github repository  : 
+- https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/
+- https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb
+
+The original writer is **Sefik Ilkin Serengil**  ( https://github.com/serengil ) 
+
+
+-------------------------
+
 Computer vision researchers of ETH Zurich University (Switzerland)  [announced](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01229.pdf)  a very successful apparent age and gender prediction models. They both shared how they designed the machine learning model and  [pre-trained weights](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)  for transfer learning. Their implementation was based on Caffe framework. Even though I tried to convert Caffe model and weights to Keras / TensorFlow, I couldn’t handle this. That’s why, I intend to adopt this research from scratch in Keras.
 
 ![katy-perry-ages](https://i2.wp.com/sefiks.com/wp-content/uploads/2019/02/katy-perry-ages.jpg?resize=618%2C347&ssl=1)
