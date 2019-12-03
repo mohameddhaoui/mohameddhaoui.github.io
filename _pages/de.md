@@ -31,7 +31,9 @@ A series of articles dedicated to data engineering
 * [GCP ](https://mohameddhaoui.github.io/dataengineering/altair/) : GCP components 
 
 
-## Data platforms
+## Data platforms and monitoring tools
 
 * [Dataiku](https://mohameddhaoui.github.io/dataengineering/dataiku/) : Hands on data preprocessing and machine learning with Dataiku
+
+* [Mlflow](https://mohameddhaoui.github.io/dataengineering/mlflow/) : Getting started wih Mlflow
 
