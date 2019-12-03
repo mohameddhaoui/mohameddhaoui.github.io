@@ -20,6 +20,7 @@ This article is just a **copy paste** from the following blog article and github
 - https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb
 
 The original writer is **Sefik Ilkin Serengil**  ( https://github.com/serengil ) 
+The content in the github repository https://github.com/kasamoh/Image_processing_learning/tree/master/Age_detection was also downloaded from the Sefik Ilkin Serengil github repository
 
 
 -------------------------
